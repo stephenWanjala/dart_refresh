@@ -38,6 +38,18 @@ print(copyList);  // Output: [1, 2, 3]
 var newList = [...originalList, 4, 5, 6];
 print(newList);  // Output: [1, 2, 3, 4, 5, 6]
 
+/**
+ * 
+ * Creating a Set from a List:
+ */
+
+
+var numbers = [1, 2, 3, 1, 2, 3];
+var uniqueSet = {...numbers};
+
+print(uniqueSet);  // Output: {1, 2, 3}
+
+
 
 
 }
