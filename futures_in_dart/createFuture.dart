@@ -9,5 +9,7 @@ void main(List<String> args) {
 
   fetchData().then((result) {
     print(result); // Output: 42
+  }).catchError((error) {
+    print('Error: $error');
   });
 }
