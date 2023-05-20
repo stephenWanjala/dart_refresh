@@ -51,5 +51,17 @@ print(uniqueSet);  // Output: {1, 2, 3}
 
 
 
+/**
+ * 
+ * Merging Maps:
+ */
+var map1 = {'a': 1, 'b': 2};
+var map2 = {'c': 3, 'd': 4};
+var mergedMap = {...map1, ...map2};
+
+print(mergedMap);  // Output: {a: 1, b: 2, c: 3, d: 4}
+
+
+
 
 }
