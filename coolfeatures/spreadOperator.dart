@@ -28,4 +28,16 @@ var copyList = [...originalList];
 print(copyList);  // Output: [1, 2, 3]
 
 
+
+/**
+ * 
+ * Adding Elements to a List:
+ */
+
+
+var newList = [...originalList, 4, 5, 6];
+print(newList);  // Output: [1, 2, 3, 4, 5, 6]
+
+
+
 }
